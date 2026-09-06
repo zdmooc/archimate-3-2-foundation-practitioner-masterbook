@@ -101,7 +101,17 @@ Concepts couverts : **Node, Device, System Software, Technology Collaboration, T
 
 ### Partie VIII — Physical Layer
 
-À venir : Equipment, Facility, Distribution Network et Material.
+1. [Vue d’ensemble — Physical Layer](08-physical-layer/00-overview.md)
+2. [Equipment, Facility, Distribution Network, Material](08-physical-layer/01-elements.md)
+3. [Modéliser un datacenter](08-physical-layer/02-datacenter-modeling.md)
+4. [Physical Layer, énergie et Green IT](08-physical-layer/03-green-it.md)
+5. [Construire une Physical Architecture de qualité](08-physical-layer/04-physical-architecture-method.md)
+6. [MayaBank — Physical Architecture complète](08-physical-layer/05-mayabank-physical-architecture.md)
+7. [Exercices et corrections — 60 cas](08-physical-layer/06-exercises-and-corrections.md)
+8. [Quick Reference Physical Layer](08-physical-layer/07-quick-reference.md)
+9. [Practitioner Checklist Physical Layer](08-physical-layer/08-practitioner-checklist.md)
+
+Concepts couverts : **Equipment, Facility, Distribution Network, Material**, avec Device↔Equipment, Communication Network↔Distribution Network, datacenter, énergie, refroidissement, résilience multi-site et Green IT.
 
 ### Partie IX — Implementation & Migration
 
