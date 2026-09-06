@@ -159,9 +159,22 @@ Relations couvertes : **Composition, Aggregation, Assignment, Realization, Servi
 
 Couverture : **Stakeholder, Concern, Viewpoint, View**, Strategy, Capability, Value Stream, Organization, Business Process Cooperation, Product, Application Cooperation, Application Usage, Information Structure, Technology, Technology Usage, Layered, cross-layer et transformation viewpoints.
 
-### Partie XII — Patterns de modélisation
+### Partie XII — Patterns de modélisation & anti-patterns
 
-Actor vs Role, Process vs Function, Service vs Function, Capability vs Application, Interface vs Service, Node vs Device vs System Software, Business Object vs Data Object vs Artifact, relations et cross-layer modeling.
+1. [Vue d’ensemble — transformer le langage en réflexes](12-modeling-patterns/00-overview.md)
+2. [Patterns de choix des éléments](12-modeling-patterns/01-element-choice-patterns.md)
+3. [Behavior / Service / Interface](12-modeling-patterns/02-behavior-service-interface-patterns.md)
+4. [Information / Data / Artifact](12-modeling-patterns/03-information-data-artifact-patterns.md)
+5. [Application → Technology → Physical](12-modeling-patterns/04-application-technology-physical-patterns.md)
+6. [Event, State & Transformation](12-modeling-patterns/05-event-and-transformation-patterns.md)
+7. [Patterns de solutions professionnelles](12-modeling-patterns/06-professional-solution-patterns.md)
+8. [Anti-patterns et réparation de modèles](12-modeling-patterns/07-antipatterns-and-model-repair.md)
+9. [MayaBank — catalogue de 30 patterns](12-modeling-patterns/08-mayabank-pattern-catalog.md)
+10. [100 exercices et corrections](12-modeling-patterns/09-100-exercises-and-corrections.md)
+11. [Quick Reference](12-modeling-patterns/10-quick-reference.md)
+12. [Practitioner Checklist](12-modeling-patterns/11-practitioner-checklist.md)
+
+Couverture : **Actor vs Role, Capability vs Process/Function, Service vs Behavior, Interface vs Service, Business Object vs Data Object vs Artifact, Application Component vs System Software, Node vs Device vs Equipment, Event patterns, transformation patterns**, plus API, microservices, Kafka, OpenShift, Data, IAM, Observability, HA/DR, Green IT, 30 patterns MayaBank et 100 exercices.
 
 ### Partie XIII — TOGAF ↔ ArchiMate
 
