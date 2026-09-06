@@ -52,184 +52,85 @@ Concepts couverts : **Resource, Capability, Value Stream, Course of Action**.
 
 ### Partie V — Business Layer
 
-- Actors, Roles, Collaborations, Interfaces
-- Processes, Functions, Interactions, Events, Services
-- Business Objects, Contracts, Representations, Products
+1. [Vue d’ensemble — Business Layer](05-business-layer/00-overview.md)
+2. [Active Structure — Actor, Role, Collaboration, Interface](05-business-layer/01-active-structure.md)
+3. [Behavior — Process, Function, Interaction, Event, Service](05-business-layer/02-behavior.md)
+4. [Passive Structure & Product — Object, Representation, Contract, Product](05-business-layer/03-passive-structure-product.md)
+5. [Confusions critiques et méthode de choix](05-business-layer/04-business-confusions.md)
+6. [Patterns de relations Business](05-business-layer/05-business-relationship-patterns.md)
+7. [Construire une Business Architecture de qualité](05-business-layer/06-business-architecture-method.md)
+8. [MayaBank — Business Architecture complète](05-business-layer/07-mayabank-business-architecture.md)
+9. [Exercices et corrections](05-business-layer/08-exercises-and-corrections.md)
+
+Concepts couverts : **Business Actor, Business Role, Business Collaboration, Business Interface, Business Process, Business Function, Business Interaction, Business Event, Business Service, Business Object, Contract, Representation, Product**.
 
 ### Partie VI — Application Layer
 
-- Components, Collaborations, Interfaces
-- Functions, Processes, Interactions, Events, Services
-- Data Objects
+À venir : Components, Collaborations, Interfaces, Functions, Processes, Interactions, Events, Services et Data Objects.
 
 ### Partie VII — Technology Layer
 
-- Nodes, Devices, System Software
-- Technology Collaborations, Interfaces, Paths, Networks
-- Functions, Processes, Interactions, Events, Services
-- Artifacts
+À venir : Nodes, Devices, System Software, Collaborations, Interfaces, Paths, Networks, Functions, Processes, Interactions, Events, Services et Artifacts.
 
 ### Partie VIII — Physical Layer
 
-- Equipment
-- Facility
-- Distribution Network
-- Material
+À venir : Equipment, Facility, Distribution Network et Material.
 
 ### Partie IX — Implementation & Migration
 
-- Work Package
-- Deliverable
-- Implementation Event
-- Plateau
-- Gap
+À venir : Work Package, Deliverable, Implementation Event, Plateau et Gap.
 
 ### Partie X — Relations ArchiMate
 
-- Composition
-- Aggregation
-- Assignment
-- Realization
-- Serving
-- Access
-- Influence
-- Triggering
-- Flow
-- Specialization
-- Association
-- Junctions
-- Derived Relationships
+Composition, Aggregation, Assignment, Realization, Serving, Access, Influence, Triggering, Flow, Specialization, Association, Junctions et Derived Relationships.
 
 ### Partie XI — Views & Viewpoints
 
-- Stakeholders et concerns
-- View vs Viewpoint
-- Layered Viewpoint
-- Motivation Viewpoint
-- Strategy Viewpoint
-- Business Process Cooperation
-- Application Cooperation
-- Application Usage
-- Technology
-- Implementation & Migration
-- Project / Migration / Capability / Outcome-oriented views
+Stakeholders et concerns, View vs Viewpoint, Layered, Motivation, Strategy, Business, Application, Technology et Implementation & Migration viewpoints.
 
 ### Partie XII — Patterns de modélisation
 
-- Actor vs Role
-- Process vs Function
-- Service vs Function
-- Capability vs Application
-- Interface vs Service
-- Node vs Device vs System Software
-- Business Object vs Data Object vs Artifact
-- Composition vs Aggregation
-- Serving vs Realization
-- Triggering vs Flow
-- Cross-layer modeling
-- Derived relationships
-- Patterns et anti-patterns
+Actor vs Role, Process vs Function, Service vs Function, Capability vs Application, Interface vs Service, Node vs Device vs System Software, Business Object vs Data Object vs Artifact, relations et cross-layer modeling.
 
 ### Partie XIII — TOGAF ↔ ArchiMate
 
-- Architecture Vision
-- Business Architecture
-- Data Architecture
-- Application Architecture
-- Technology Architecture
-- Opportunities & Solutions
-- Migration Planning
-- Implementation Governance
-- Architecture Change Management
+Architecture Vision, Business, Data, Application, Technology, Opportunities & Solutions, Migration Planning, Implementation Governance et Change Management.
 
 ### Partie XIV — MayaBank : modèle d’entreprise complet
 
-- Drivers et objectifs
-- Capabilities
-- Value streams
-- Business architecture
-- Data & information
-- Application architecture
-- Event-driven payment platform
-- API architecture
-- Technology / OpenShift / Cloud
-- Security
-- Observability
-- Baseline, Target et Transition
-- Work Packages, Plateaus et Gaps
-- Modèle ArchiMate complet
+Drivers, Capabilities, Value Streams, Business, Data, Application, Event Streaming, API, Technology/OpenShift/Cloud, Security, Observability, Baseline, Target, Transition, Work Packages, Plateaus et Gaps.
 
 ### Partie XV — Use cases professionnels
 
-- Instant Payment
-- API Banking
-- Kafka / Event Streaming
-- Cloud migration
-- OpenShift / Kubernetes
-- IAM
-- Fraud & Risk
-- Data Platform
-- Observability
-- Multi-site / Disaster Recovery
-- GenAI Platform
-- Green IT
+Instant Payment, API Banking, Kafka/Event Streaming, Cloud Migration, OpenShift/Kubernetes, IAM, Fraud & Risk, Data Platform, Observability, Multi-site/DR, GenAI Platform et Green IT.
 
 ### Partie XVI — Archi et modélisation pratique
 
-- Construire un modèle
-- Créer des vues
-- Organiser un modèle complexe
-- Import / export
-- Collaboration
-- Analyse du modèle
+Construire des modèles et vues, organiser un modèle complexe, import/export, collaboration et analyse.
 
 ### Partie XVII — ArchiMate as Code
 
-- PlantUML
-- Git
-- Documentation automatisée
-- Validation
-- CI/CD documentaire
+PlantUML, Git, documentation automatisée, validation et CI/CD documentaire.
 
 ### Partie XVIII — Foundation Question Bank
 
-- Questions de connaissance
-- Questions de discrimination
-- Pièges de relations
-- Pièges d’éléments
-- Mini-cas
+Questions de connaissance, discrimination, relations, éléments et mini-cas.
 
 ### Partie XIX — Practitioner Scenario Bank
 
-- Choix du bon élément
-- Choix de la bonne relation
-- Choix du bon viewpoint
-- Correction de modèles
-- Cross-layer scenarios
-- Transformation scenarios
+Choix du bon élément, relation, viewpoint, correction de modèles, cross-layer et transformations.
 
 ### Partie XX — Mock Exams
 
-- Foundation
-- Practitioner
-- Corrections détaillées
+Foundation, Practitioner et corrections détaillées.
 
 ### Partie XXI — Cheat Sheets
 
-- Éléments
-- Relations
-- Layers
-- Viewpoints
-- Confusions fréquentes
-- Révision finale
+Éléments, relations, layers, viewpoints, confusions fréquentes et révision finale.
 
 ### Partie XXII — English for Enterprise Architects
 
-- Explain a model
-- Describe relationships
-- Present an architecture
-- Defend modeling choices
-- Interview questions
+Explain a model, describe relationships, present an architecture, defend modeling choices et interview questions.
 
 ### Partie XXIII — Glossaire
 
