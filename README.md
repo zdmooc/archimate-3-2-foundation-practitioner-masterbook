@@ -66,7 +66,20 @@ Concepts couverts : **Business Actor, Business Role, Business Collaboration, Bus
 
 ### Partie VI — Application Layer
 
-À venir : Components, Collaborations, Interfaces, Functions, Processes, Interactions, Events, Services et Data Objects.
+1. [Vue d’ensemble — Application Layer](06-application-layer/00-overview.md)
+2. [Active Structure — Component, Collaboration, Interface](06-application-layer/01-active-structure.md)
+3. [Behavior — Function, Process, Interaction, Event, Service](06-application-layer/02-behavior.md)
+4. [Data Object — donnée logique et réalisations](06-application-layer/03-data-object.md)
+5. [APIs et microservices](06-application-layer/04-api-and-microservices.md)
+6. [Event-Driven Architecture et Kafka](06-application-layer/05-event-driven-kafka.md)
+7. [Business ↔ Application Mapping](06-application-layer/06-business-application-mapping.md)
+8. [Construire une Application Architecture de qualité](06-application-layer/07-application-architecture-method.md)
+9. [MayaBank — Application Architecture complète](06-application-layer/08-mayabank-application-architecture.md)
+10. [Exercices et corrections](06-application-layer/09-exercises-and-corrections.md)
+11. [Quick Reference Application Layer](06-application-layer/10-quick-reference.md)
+12. [Practitioner Checklist Application Layer](06-application-layer/11-practitioner-checklist.md)
+
+Concepts couverts : **Application Component, Application Collaboration, Application Interface, Application Function, Application Process, Application Interaction, Application Event, Application Service, Data Object**, avec API, microservices, event-driven/Kafka, data mapping, Baseline/Target et transitions.
 
 ### Partie VII — Technology Layer
 
