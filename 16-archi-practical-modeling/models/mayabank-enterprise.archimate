@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="MayaBank Enterprise Architecture" id="id-mayabank-enterprise" version="5.0.0">
+  <folder name="Strategy" id="id-folder-strategy" type="strategy">
+    <element xsi:type="archimate:Capability" name="Real-Time Payment Processing" id="id-cap-realtime-payments">
+      <property key="canonical-id" value="MB-STR-001"/>
+      <property key="owner" value="Payments Architecture"/>
+    </element>
+    <element xsi:type="archimate:CourseOfAction" name="Adopt Event-Driven Payments" id="id-coa-event-driven"/>
+  </folder>
+
+  <folder name="Business" id="id-folder-business" type="business">
+    <element xsi:type="archimate:BusinessProcess" name="Execute Instant Payment" id="id-bp-execute-payment"/>
+    <element xsi:type="archimate:BusinessService" name="Instant Payment Service" id="id-bs-instant-payment"/>
+    <element xsi:type="archimate:BusinessObject" name="Payment Order" id="id-bo-payment-order"/>
+    <element xsi:type="archimate:BusinessEvent" name="Payment Completed" id="id-be-payment-completed"/>
+  </folder>
+
+  <folder name="Application" id="id-folder-application" type="application">
+    <element xsi:type="archimate:ApplicationComponent" name="Payment Orchestrator" id="id-app-payment-orchestrator">
+      <documentation>Coordinates validation, fraud decision, routing and payment status for real-time payments.</documentation>
+      <property key="canonical-id" value="MB-APP-002"/>
+      <property key="owner" value="Payments Domain"/>
+      <property key="lifecycle" value="target"/>
+      <property key="criticality" value="critical"/>
+    </element>
+    <element xsi:type="archimate:ApplicationService" name="Payment Initiation Service" id="id-as-payment-initiation"/>
+    <element xsi:type="archimate:ApplicationInterface" name="Payment REST API" id="id-ai-payment-api"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Fraud Engine" id="id-app-fraud-engine"/>
+    <element xsi:type="archimate:ApplicationService" name="Fraud Decision Service" id="id-as-fraud-decision"/>
+    <element xsi:type="archimate:DataObject" name="Payment Transaction" id="id-data-payment-transaction"/>
+    <element xsi:type="archimate:ApplicationEvent" name="Payment Validation Completed" id="id-ae-payment-validated"/>
+  </folder>
+
+  <folder name="Technology &amp; Physical" id="id-folder-technology" type="technology">
+    <element xsi:type="archimate:TechnologyService" name="Event Streaming Service" id="id-ts-event-streaming"/>
+    <element xsi:type="archimate:SystemSoftware" name="Kafka" id="id-ss-kafka">
+      <property key="canonical-id" value="MB-TEC-010"/>
+    </element>
+    <element xsi:type="archimate:Node" name="OpenShift Production Cluster" id="id-node-ocp-prod"/>
+    <element xsi:type="archimate:SystemSoftware" name="OpenShift" id="id-ss-openshift"/>
+    <element xsi:type="archimate:TechnologyService" name="Container Runtime Service" id="id-ts-container-runtime"/>
+    <element xsi:type="archimate:TechnologyService" name="Identity Service" id="id-ts-identity"/>
+    <element xsi:type="archimate:TechnologyService" name="Observability Service" id="id-ts-observability"/>
+    <element xsi:type="archimate:Facility" name="MayaBank Site A" id="id-facility-site-a"/>
+    <element xsi:type="archimate:Device" name="Payment Compute Node A" id="id-device-compute-a"/>
+  </folder>
+
+  <folder name="Motivation" id="id-folder-motivation" type="motivation">
+    <element xsi:type="archimate:Driver" name="Customer Expectation for Real-Time Payments" id="id-driver-realtime"/>
+    <element xsi:type="archimate:Goal" name="Reliable Real-Time Payments" id="id-goal-reliable-payments"/>
+    <element xsi:type="archimate:Requirement" name="24x7 Payment Processing" id="id-req-24x7"/>
+    <element xsi:type="archimate:Requirement" name="Strong Authentication" id="id-req-strong-auth"/>
+  </folder>
+
+  <folder name="Implementation &amp; Migration" id="id-folder-migration" type="implementation_migration">
+    <element xsi:type="archimate:Plateau" name="Legacy Payment Platform" id="id-plateau-legacy"/>
+    <element xsi:type="archimate:Plateau" name="Hybrid Payment Platform" id="id-plateau-hybrid"/>
+    <element xsi:type="archimate:Plateau" name="Target Payment Platform" id="id-plateau-target"/>
+    <element xsi:type="archimate:Gap" name="No Event Backbone" id="id-gap-event-backbone"/>
+    <element xsi:type="archimate:WorkPackage" name="Establish Event Streaming Platform" id="id-wp-event-streaming"/>
+    <element xsi:type="archimate:ImplementationEvent" name="Event Platform Ready" id="id-ie-event-platform-ready"/>
+  </folder>
+
+  <folder name="Other" id="id-folder-other" type="other"/>
+
+  <folder name="Relations" id="id-folder-relations" type="relations">
+    <element xsi:type="archimate:InfluenceRelationship" id="id-rel-driver-goal" source="id-driver-realtime" target="id-goal-reliable-payments"/>
+    <element xsi:type="archimate:InfluenceRelationship" id="id-rel-goal-req" source="id-goal-reliable-payments" target="id-req-24x7"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-cap-goal" source="id-cap-realtime-payments" target="id-goal-reliable-payments"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-process-service" source="id-bp-execute-payment" target="id-bs-instant-payment"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-appservice-business" source="id-as-payment-initiation" target="id-bp-execute-payment"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-component-service" source="id-app-payment-orchestrator" target="id-as-payment-initiation"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-rel-component-event" source="id-app-payment-orchestrator" target="id-ae-payment-validated"/>
+    <element xsi:type="archimate:AccessRelationship" id="id-rel-component-data" source="id-app-payment-orchestrator" target="id-data-payment-transaction" accessType="3"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-streaming-app" source="id-ts-event-streaming" target="id-app-payment-orchestrator"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-kafka-streaming" source="id-ss-kafka" target="id-ts-event-streaming"/>
+    <element xsi:type="archimate:RealizationRelationship" id="id-rel-openshift-runtime" source="id-ss-openshift" target="id-ts-container-runtime"/>
+    <element xsi:type="archimate:ServingRelationship" id="id-rel-runtime-app" source="id-ts-container-runtime" target="id-app-payment-orchestrator"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-rel-node-openshift" source="id-node-ocp-prod" target="id-ss-openshift"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-facility-device" source="id-facility-site-a" target="id-device-compute-a"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-device-node" source="id-device-compute-a" target="id-node-ocp-prod"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-rel-gap-wp" source="id-gap-event-backbone" target="id-wp-event-streaming"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-rel-wp-event" source="id-wp-event-streaming" target="id-ie-event-platform-ready"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-rel-legacy-hybrid" source="id-plateau-legacy" target="id-plateau-hybrid"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-rel-hybrid-target" source="id-plateau-hybrid" target="id-plateau-target"/>
+  </folder>
+
+  <folder name="Views" id="id-folder-views" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="EXEC-01 Payment Target Traceability" id="id-view-exec-01">
+      <child xsi:type="archimate:DiagramObject" id="id-view-exec-goal" archimateElement="id-goal-reliable-payments"><bounds x="36" y="36" width="220" height="60"/></child>
+      <child xsi:type="archimate:DiagramObject" id="id-view-exec-cap" archimateElement="id-cap-realtime-payments"><bounds x="300" y="36" width="220" height="60"/></child>
+      <child xsi:type="archimate:DiagramObject" id="id-view-exec-bp" archimateElement="id-bp-execute-payment"><bounds x="564" y="36" width="220" height="60"/></child>
+      <child xsi:type="archimate:DiagramObject" id="id-view-exec-app" archimateElement="id-app-payment-orchestrator"><bounds x="828" y="36" width="220" height="60"/></child>
+      <child xsi:type="archimate:DiagramObject" id="id-view-exec-ts" archimateElement="id-ts-event-streaming"><bounds x="1092" y="36" width="220" height="60"/></child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="TEC-01 Payment Runtime" id="id-view-tec-01">
+      <child xsi:type="archimate:DiagramObject" id="id-view-tec-app" archimateElement="id-app-payment-orchestrator"><bounds x="60" y="40" width="220" height="60"/></child>
+      <child xsi:type="archimate:DiagramObject" id="id-view-tec-stream" archimateElement="id-ts-event-streaming"><bounds x="360" y="40" width="220" height="60"/></child>
+      <child xsi:type="archimate:DiagramObject" id="id-view-tec-kafka" archimateElement="id-ss-kafka"><bounds x="660" y="40" width="220" height="60"/></child>
+      <child xsi:type="archimate:DiagramObject" id="id-view-tec-ocp" archimateElement="id-node-ocp-prod"><bounds x="360" y="180" width="220" height="60"/></child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="MIG-01 Payment Transformation Roadmap" id="id-view-mig-01">
+      <child xsi:type="archimate:DiagramObject" id="id-view-mig-legacy" archimateElement="id-plateau-legacy"><bounds x="36" y="60" width="200" height="60"/></child>
+      <child xsi:type="archimate:DiagramObject" id="id-view-mig-gap" archimateElement="id-gap-event-backbone"><bounds x="276" y="60" width="200" height="60"/></child>
+      <child xsi:type="archimate:DiagramObject" id="id-view-mig-wp" archimateElement="id-wp-event-streaming"><bounds x="516" y="60" width="240" height="60"/></child>
+      <child xsi:type="archimate:DiagramObject" id="id-view-mig-hybrid" archimateElement="id-plateau-hybrid"><bounds x="796" y="60" width="200" height="60"/></child>
+      <child xsi:type="archimate:DiagramObject" id="id-view-mig-target" archimateElement="id-plateau-target"><bounds x="1036" y="60" width="200" height="60"/></child>
+    </element>
+  </folder>
+</archimate:model>

@@ -100,26 +100,16 @@ Le cas fil rouge **MayaBank** représente une banque fictive qui modernise sa pl
 ### Partie XV — Use cases professionnels
 
 - [Ouvrir la Partie XV](15-professional-use-cases/README.md)
-- [Instant Payment](15-professional-use-cases/01-instant-payment.md)
-- [API Banking](15-professional-use-cases/02-api-banking.md)
-- [Kafka / Event Streaming](15-professional-use-cases/03-kafka-event-streaming.md)
-- [OpenShift / Kubernetes](15-professional-use-cases/04-openshift-kubernetes.md)
-- [Cloud Migration](15-professional-use-cases/05-cloud-migration.md)
-- [IAM / Zero Trust](15-professional-use-cases/06-iam-zero-trust.md)
-- [Fraud & Risk](15-professional-use-cases/07-fraud-risk.md)
-- [Data Platform](15-professional-use-cases/08-data-platform.md)
-- [Observability / SRE](15-professional-use-cases/09-observability-sre.md)
-- [Multi-site / DR](15-professional-use-cases/10-multisite-dr.md)
-- [GenAI Platform](15-professional-use-cases/11-genai-platform.md)
-- [Green IT](15-professional-use-cases/12-green-it.md)
-- [Matrice transversale](15-professional-use-cases/13-cross-usecase-pattern-matrix.md)
-- [60 cas d’entretien et Practitioner](15-professional-use-cases/14-60-interview-practitioner-cases.md)
-- [Quick Reference](15-professional-use-cases/15-quick-reference.md)
-- [Practitioner Checklist](15-professional-use-cases/16-practitioner-checklist.md)
+- Instant Payment, API Banking, Kafka/Event Streaming, OpenShift/Kubernetes, Cloud Migration, IAM/Zero Trust, Fraud & Risk, Data Platform, Observability/SRE, Multi-site/DR, GenAI Platform, Green IT
+- matrice transversale + 60 cas d’entretien/Practitioner
 
 ### Partie XVI — Archi et modélisation pratique
 
-À venir : construction d’un vrai modèle dans Archi, organisation, views, import/export, collaboration, analyse et bonnes pratiques de repository de modèle.
+- [Ouvrir la Partie XVI](16-archi-practical-modeling/README.md)
+- Archi 5.8, organisation du référentiel, Views, properties, documentation, analyse, import/export, coArchi/Git
+- [LAB MayaBank](16-archi-practical-modeling/07-mayabank-hands-on-lab.md)
+- [Modèle natif MayaBank `.archimate`](16-archi-practical-modeling/models/mayabank-enterprise.archimate)
+- 50 exercices corrigés + Quick Reference + Practitioner Checklist
 
 ### Partie XVII — ArchiMate as Code
 
