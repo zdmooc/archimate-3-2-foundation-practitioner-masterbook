@@ -155,10 +155,24 @@ Le cas fil rouge **MayaBank** représente une banque fictive qui modernise sa pl
 10. [Quick Reference](13-togaf-archimate/09-quick-reference.md)
 11. [Practitioner Checklist](13-togaf-archimate/10-practitioner-checklist.md)
 
-Couverture : **Preliminary, A, B, C Data, C Application, D, E, F, G, H et Requirements Management**, avec concepts, relations, viewpoints, traceability, governance et MayaBank.
-
 ### Partie XIV — MayaBank : modèle d’entreprise complet
-À venir : modèle cross-layer consolidé de bout en bout.
+1. [Vue d’ensemble](14-mayabank-enterprise-model/00-overview.md)
+2. [Histoire d’entreprise, scope et architecture questions](14-mayabank-enterprise-model/01-enterprise-story-and-scope.md)
+3. [Motivation, Strategy et traçabilité](14-mayabank-enterprise-model/02-motivation-strategy-traceability.md)
+4. [Business & Information Architecture](14-mayabank-enterprise-model/03-business-information-architecture.md)
+5. [Application, API & Event-Driven Architecture](14-mayabank-enterprise-model/04-application-api-event-driven.md)
+6. [Technology, Security & Observability Architecture](14-mayabank-enterprise-model/05-technology-security-observability.md)
+7. [Physical, Green IT, HA & DR Architecture](14-mayabank-enterprise-model/06-physical-greenit-ha-dr.md)
+8. [Baseline, Target & Transition Architectures](14-mayabank-enterprise-model/07-baseline-target-transition.md)
+9. [End-to-End Traceability Matrix](14-mayabank-enterprise-model/08-end-to-end-traceability-matrix.md)
+10. [View Catalog & Stakeholders](14-mayabank-enterprise-model/09-view-catalog-and-stakeholders.md)
+11. [Canonical Element Register](14-mayabank-enterprise-model/10-canonical-element-register.md)
+12. [Consistency Rules & Quality Gates](14-mayabank-enterprise-model/11-consistency-rules-and-quality-gates.md)
+13. [60 Cross-Layer Review Cases](14-mayabank-enterprise-model/12-cross-layer-review-cases.md)
+14. [Quick Reference](14-mayabank-enterprise-model/13-quick-reference.md)
+15. [Practitioner Checklist](14-mayabank-enterprise-model/14-practitioner-checklist.md)
+
+Couverture : **Motivation → Strategy → Business → Information → Application/API/Event-Driven → Technology/OpenShift/Kafka/Data → Security → Observability → Physical → HA/DR → Green IT → Baseline/Target/Transition → Gaps/Work Packages/Plateaus**, avec registre canonique, traçabilité bidirectionnelle, 20 vues et 60 cas cross-layer.
 
 ### Partie XV — Use cases professionnels
 À venir : Instant Payment, API Banking, Kafka/Event Streaming, Cloud Migration, OpenShift/Kubernetes, IAM, Fraud & Risk, Data Platform, Observability, Multi-site/DR, GenAI Platform et Green IT.
