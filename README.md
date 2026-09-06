@@ -130,7 +130,19 @@ Concepts couverts : **Work Package, Deliverable, Implementation Event, Plateau, 
 
 ### Partie X — Relations ArchiMate
 
-Composition, Aggregation, Assignment, Realization, Serving, Access, Influence, Triggering, Flow, Specialization, Association, Junctions et Derived Relationships.
+1. [Vue d’ensemble](10-relations/00-overview.md)
+2. [Relations structurelles — Composition, Aggregation, Assignment, Realization](10-relations/01-structural-relationships.md)
+3. [Relations de dépendance — Serving, Access, Influence, Association](10-relations/02-dependency-relationships.md)
+4. [Relations dynamiques et autres — Triggering, Flow, Specialization](10-relations/03-dynamic-and-other-relationships.md)
+5. [Junctions, direction et validation](10-relations/04-junctions-and-relationship-direction.md)
+6. [Relations dérivées](10-relations/05-derived-relationships.md)
+7. [Cross-layer relationships et confusions](10-relations/06-cross-layer-and-confusions.md)
+8. [MayaBank — modèle de relations de bout en bout](10-relations/07-mayabank-relationship-model.md)
+9. [120 exercices et corrections](10-relations/08-120-exercises-and-corrections.md)
+10. [Quick Reference Relations](10-relations/09-quick-reference.md)
+11. [Practitioner Checklist Relations](10-relations/10-practitioner-checklist.md)
+
+Relations couvertes : **Composition, Aggregation, Assignment, Realization, Serving, Access, Influence, Association, Triggering, Flow, Specialization, Junctions et Derived Relationships**, avec direction, source/cible, cross-layer modeling et 120 cas.
 
 ### Partie XI — Views & Viewpoints
 
