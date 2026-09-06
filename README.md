@@ -115,7 +115,18 @@ Concepts couverts : **Equipment, Facility, Distribution Network, Material**, ave
 
 ### Partie IX — Implementation & Migration
 
-À venir : Work Package, Deliverable, Implementation Event, Plateau et Gap.
+1. [Vue d’ensemble — du présent vers la cible](09-implementation-migration/00-overview.md)
+2. [Work Package, Deliverable et Implementation Event](09-implementation-migration/01-work-package-deliverable-event.md)
+3. [Plateau, Gap, Baseline, Transition et Target](09-implementation-migration/02-plateau-gap-baseline-target.md)
+4. [Roadmap, vagues, cutover, rollback et décommissionnement](09-implementation-migration/03-roadmap-cutover-rollback.md)
+5. [TOGAF Phases E/F/G ↔ Implementation & Migration](09-implementation-migration/04-togaf-e-f-g.md)
+6. [Construire une Implementation & Migration Architecture de qualité](09-implementation-migration/05-implementation-migration-method.md)
+7. [MayaBank — Implementation & Migration complète](09-implementation-migration/06-mayabank-implementation-migration.md)
+8. [Exercices et corrections — 60 cas](09-implementation-migration/07-exercises-and-corrections.md)
+9. [Quick Reference](09-implementation-migration/08-quick-reference.md)
+10. [Practitioner Checklist](09-implementation-migration/09-practitioner-checklist.md)
+
+Concepts couverts : **Work Package, Deliverable, Implementation Event, Plateau, Gap**, avec Baseline/Target/Transition, migration waves, cutover, rollback, data migration, decommissioning, coexistence legacy et mapping TOGAF E/F/G.
 
 ### Partie X — Relations ArchiMate
 
