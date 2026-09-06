@@ -30,23 +30,25 @@ Le cas fil rouge **MayaBank** représente une banque fictive qui modernise sa pl
 
 ### Partie III — Motivation
 
-- Stakeholder
-- Driver
-- Assessment
-- Goal
-- Outcome
-- Principle
-- Requirement
-- Constraint
-- Meaning
-- Value
+1. [Vue d’ensemble — du pourquoi à l’exigence](03-motivation/00-overview.md)
+2. [Stakeholder, Driver et Assessment](03-motivation/01-stakeholder-driver-assessment.md)
+3. [Goal et Outcome](03-motivation/02-goal-outcome.md)
+4. [Principle, Requirement et Constraint](03-motivation/03-principle-requirement-constraint.md)
+5. [Meaning et Value](03-motivation/04-meaning-value.md)
+6. [Modèle Motivation complet MayaBank](03-motivation/05-motivation-complete-pattern.md)
+
+Concepts couverts : **Stakeholder, Driver, Assessment, Goal, Outcome, Principle, Requirement, Constraint, Meaning, Value**.
 
 ### Partie IV — Strategy
 
-- Resource
-- Capability
-- Value Stream
-- Course of Action
+1. [Vue d’ensemble — Strategy](04-strategy/00-overview.md)
+2. [Resource](04-strategy/01-resource.md)
+3. [Capability](04-strategy/02-capability.md)
+4. [Value Stream](04-strategy/03-value-stream.md)
+5. [Course of Action](04-strategy/04-course-of-action.md)
+6. [Modèle Strategy complet MayaBank](04-strategy/05-strategy-complete-pattern.md)
+
+Concepts couverts : **Resource, Capability, Value Stream, Course of Action**.
 
 ### Partie V — Business Layer
 
