@@ -115,8 +115,10 @@ Le cas fil rouge **MayaBank** représente une banque fictive qui modernise sa pl
 - **40 réponses d’entretien**, **15 dialogues FR/EN**, soutenance MayaBank complète et **200 phrases d’entraînement**
 - vocabulaire Paiements/API/Kafka/OpenShift/Cloud/IAM/DR/Data/GenAI/Green IT + compréhension orale et prononciation
 
-### Partie XXIII — Glossaire
-À venir : glossaire français/anglais complet.
+### Partie XXIII — Glossaire FR/EN
+- [Ouvrir la Partie XXIII](23-glossary/README.md)
+- **261 termes distincts** : ArchiMate + EA/TOGAF + API/Kafka + Cloud/OpenShift + Security/DR/SRE + Data/AI/Green IT/FinOps
+- définitions, exemples MayaBank, confusions fréquentes et index A–Z bilingues
 
 ### Partie XXIV — Références officielles
 À venir : sources officielles, certification et mapping de couverture.
