@@ -105,7 +105,9 @@ Le cas fil rouge **MayaBank** représente une banque fictive qui modernise sa pl
 - corrections détaillées + [score et protocole de remédiation](20-mock-exams/score-and-review.md)
 
 ### Partie XXI — Cheat Sheets
-À venir : éléments, relations, layers, viewpoints et confusions critiques.
+- [Ouvrir la Partie XXI](21-cheat-sheets/README.md)
+- **12 fiches de révision** : carte du langage, layers, relations, viewpoints, migration, confusions critiques et patterns professionnels
+- fiches dédiées Foundation/Practitioner, MayaBank cross-layer et révision express 15 minutes
 
 ### Partie XXII — English for Enterprise Architects
 À venir : expliquer, présenter et défendre un modèle en anglais.
