@@ -87,7 +87,10 @@ Le cas fil rouge **MayaBank** représente une banque fictive qui modernise sa pl
 - 50 exercices + Quick Reference + Practitioner Checklist
 
 ### Partie XVIII — Foundation Question Bank
-À venir : banque complète de questions Foundation.
+- [Ouvrir la Partie XVIII](18-foundation-question-bank/README.md)
+- **350 QCM originaux** répartis en 7 blocs de 50
+- corrections séparées Q001–Q175 et Q176–Q350
+- contrôle de couverture : IDs continus, 4 choix A–D, 350 corrections, 350 énoncés distincts
 
 ### Partie XIX — Practitioner Scenario Bank
 À venir : scénarios Practitioner originaux.

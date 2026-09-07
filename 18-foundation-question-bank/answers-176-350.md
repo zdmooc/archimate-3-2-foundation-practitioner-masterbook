@@ -1,0 +1,179 @@
+# Corrections Q176–Q350
+
+> Chaque entrée donne la lettre, la réponse et la discrimination essentielle.
+
+- **Q176 — A — Parce qu’elle crée des dépendances, risques et coûts spécifiques au Plateau de transition.** — L’état hybride est architecturalement significatif.
+- **Q177 — B — Implementation Event** — Le passage d’autorité des données est un événement de transformation.
+- **Q178 — B — Plateau** — La coexistence stable est un Plateau de transition.
+- **Q179 — C — Comme des relations/dépendances existantes dans le Plateau cible provisoire et éventuellement des Gaps restants.** — Le modèle doit refléter la réalité, y compris les dépendances résiduelles.
+- **Q180 — C — Oui, si l’objectif inclut la suppression réelle des coûts, risques ou impacts.** — Sans retrait explicite, les gains peuvent ne jamais se matérialiser.
+- **Q181 — D — Legacy Exit / Decommissioning** — Le retrait final du legacy ferme la transformation.
+- **Q182 — A — Deliverable ou résultat de décommissionnement** — C’est un résultat de clôture du retrait.
+- **Q183 — C — Deliverable** — Le nettoyage est un résultat attendu du Work Package de décommissionnement.
+- **Q184 — B — Pour éviter qu’un élément de transition devienne une dette permanente non gouvernée.** — Les architectures de transition doivent expliciter la sortie des composants temporaires.
+- **Q185 — C — Plateau + Gap** — Plateau représente l’état; Gap représente l’écart.
+- **Q186 — B — Work Package + Deliverable** — Travail exécuté et résultat livré.
+- **Q187 — A — Course of Action + Work Package** — Approche stratégique puis exécution.
+- **Q188 — B — Gap → Work Package → Deliverable → Implementation Event → Plateau** — Le gap motive des travaux produisant des livrables, jalons et nouvel état.
+- **Q189 — C — Plateau, Gap, Work Package, Deliverable, Implementation Event** — E/F traitent options, roadmap, priorisation et migration.
+- **Q190 — B — Tracer Requirements, Deliverables et éléments cible pour contrôler la conformité.** — La traçabilité architecture→implémentation aide la gouvernance.
+- **Q191 — A — Le modèle cible omet la condition physique nécessaire à la réalisation du gain.** — Le gain réel dépend de l’extinction/consolidation/évitement des assets.
+- **Q192 — C — Work Package ou activité de décommissionnement** — C’est un travail concret de retrait.
+- **Q193 — B — Implementation Event ou Deliverable selon le concern** — On peut modéliser le jalon de changement ou le résultat livré.
+- **Q194 — B — Outcome** — Le résultat mesurable relève de Motivation, pas d’Implementation & Migration.
+- **Q195 — C — Non; elle doit montrer celles nécessaires au concern et à la décision.** — Une vue reste concern-driven.
+- **Q196 — A — Non; Plateau exprime un état d’architecture, pas simplement un environnement.** — Environment et Plateau ont des sémantiques différentes.
+- **Q197 — D — Non; une release peut contribuer à un Plateau mais n’est pas automatiquement un Plateau.** — Le Plateau est un état architectural stable.
+- **Q198 — A — Non; Gap est un écart entre états, le risque peut être un Assessment.** — Écart et évaluation de risque sont distincts.
+- **Q199 — C — Non; le Requirement exprime un besoin, le Gap exprime ce qui manque pour passer d’un état à un autre.** — Ils ont des rôles différents.
+- **Q200 — B — L’absence de Work Packages/Plateaus/Events nécessaires pour rendre la transition explicite.** — Une cible seule ne dit pas comment y parvenir.
+- **Q201 — D — Composition** — Composition exprime une relation structurelle forte de tout à partie.
+- **Q202 — C — Aggregation** — Aggregation exprime un regroupement whole-part plus faible.
+- **Q203 — B — Assignment** — Assignment répond à « qui exécute/porte quoi ? ».
+- **Q204 — C — Realization** — Realization exprime l’implémentation/concrétisation.
+- **Q205 — D — Serving** — Serving va du fournisseur vers le consommateur.
+- **Q206 — B — Access** — Access représente lecture/écriture d’information ou matière.
+- **Q207 — D — Influence** — Influence exprime un effet positif/négatif sur un élément Motivation.
+- **Q208 — D — Triggering** — Triggering indique qu’un élément déclenche un autre.
+- **Q209 — D — Flow** — Flow représente un transfert.
+- **Q210 — B — Specialization** — Specialization représente la spécialisation conceptuelle.
+- **Q211 — D — Association** — Association est faible et doit être évitée si une relation sémantique plus précise existe.
+- **Q212 — D — Assignment** — Une structure active est assignée au comportement qu’elle exécute.
+- **Q213 — B — Realization** — Le comportement interne réalise le service externe.
+- **Q214 — B — Serving** — Le service sert le consommateur.
+- **Q215 — C — Access** — Lecture/écriture d’un élément passif = Access.
+- **Q216 — A — Triggering** — La causalité/séquence est Triggering.
+- **Q217 — B — Flow** — Le transfert d’information est Flow.
+- **Q218 — C — Composition** — Composition est la relation whole-part forte.
+- **Q219 — C — Aggregation** — Aggregation est plus faible que Composition.
+- **Q220 — A — Specialization** — Specialization relie un concept spécifique à un concept plus général.
+- **Q221 — A — Influence** — Influence exprime l’effet du Driver sur le Goal.
+- **Q222 — B — du fournisseur vers le consommateur** — Serving se lit provider → consumer.
+- **Q223 — A — du concret vers l’abstrait réalisé** — Realization va de l’élément qui réalise vers l’élément réalisé.
+- **Q224 — A — Parce qu’elle perd de la sémantique lorsqu’une relation plus précise existe.** — Association est un dernier recours sémantique.
+- **Q225 — C — Serving = qui fournit à qui; Realization = qu’est-ce qui concrétise quoi** — Ce sont deux intentions différentes.
+- **Q226 — D — Triggering = qu’est-ce qui déclenche quoi; Flow = qu’est-ce qui est transféré** — Cause/séquence et transfert doivent être distingués.
+- **Q227 — C — Access = qui lit/écrit quoi; Flow = qu’est-ce qui passe de A à B** — Access porte sur utilisation d’un objet passif; Flow sur transfert.
+- **Q228 — B — Assignment = qui exécute/porte quoi; Serving = qui fournit une fonctionnalité à qui** — Assignment porte sur responsabilité/exécution, Serving sur consommation.
+- **Q229 — B — Realization** — Le composant concrétise le service applicatif.
+- **Q230 — A — Serving** — Le service applicatif fournit une fonctionnalité au processus métier.
+- **Q231 — D — Access** — Le processus accède au Business Object.
+- **Q232 — D — Access** — La fonction applicative lit/écrit le Data Object.
+- **Q233 — D — Realization** — L’Artifact constitue une représentation plus concrète du Data Object.
+- **Q234 — C — Realization** — Le logiciel système réalise la fonctionnalité technologique exposée.
+- **Q235 — B — Serving** — Le Technology Service fournit la fonctionnalité au composant consommateur.
+- **Q236 — C — Composition ou Aggregation selon la sémantique whole-part voulue** — Le bon choix dépend du sens voulu; ne pas mapper mécaniquement virtualisation→relation.
+- **Q237 — D — Triggering** — L’événement de panne déclenche le processus de failover.
+- **Q238 — C — Flow** — La réplication transfère des données vers le site B.
+- **Q239 — B — Access** — Le processus écrit l’Artifact de sauvegarde.
+- **Q240 — D — Influence** — L’Assessment affecte le Goal.
+- **Q241 — B — Non; les relations dérivées obéissent à des règles précises.** — Une simple chaîne visuelle ne suffit pas à inférer n’importe quelle relation.
+- **Q242 — C — Non; elle sert à inférer/simplifier certains liens, pas à effacer la structure explicite nécessaire.** — La dérivation complète le raisonnement sans remplacer le modèle utile.
+- **Q243 — C — Non; c’est un connecteur de relations.** — Junction n’est pas un élément métier/applicatif/technique.
+- **Q244 — C — une combinaison où toutes les branches concernées participent selon la sémantique de la relation** — AND Junction combine les branches concernées.
+- **Q245 — A — une alternative entre branches selon la sémantique de la relation** — OR Junction exprime l’alternative.
+- **Q246 — B — Parce qu’une relation peut sembler plausible visuellement mais être sémantiquement ou métamodèlement invalide.** — Direction, source et cible font partie de la validité.
+- **Q247 — A — Question métier → sémantique → direction → légalité source/cible** — La relation part du sens, puis on vérifie la validité.
+- **Q248 — A — Serving est incorrect; Access exprime la lecture/écriture.** — Lire/écrire un objet passif correspond à Access.
+- **Q249 — A — Access avec type write** — Stocker/écrire une donnée relève d’Access.
+- **Q250 — B — Flow** — L’envoi d’un JSON représente un transfert; Triggering représente causalité/séquence.
+- **Q251 — C — Stakeholder** — Stakeholder est l’audience/intéressé.
+- **Q252 — B — Concern** — Concern définit ce que la vue doit aider à comprendre.
+- **Q253 — D — Viewpoint** — Viewpoint est le cadre de construction.
+- **Q254 — D — View** — View est ce que l’on montre concrètement.
+- **Q255 — C — Strategy/Capability View** — Le concern est stratégique et capacitaire.
+- **Q256 — A — Business Process Cooperation View** — Cette vue répond au comportement métier et aux acteurs/rôles.
+- **Q257 — C — Product View** — Product View présente l’offre, services et contrats.
+- **Q258 — C — Application Cooperation View** — Le concern porte sur la coopération applicative.
+- **Q259 — D — Application Usage View** — Application Usage relie comportement métier et services/applications.
+- **Q260 — C — Technology View** — Le concern est technologique.
+- **Q261 — A — Layered View** — Layered View facilite la traçabilité cross-layer.
+- **Q262 — B — Implementation & Migration View** — Le concern est la transformation.
+- **Q263 — C — une vue cross-layer Security orientée concern** — Une custom view concern-driven est appropriée.
+- **Q264 — B — une vue cross-layer Incident Impact** — L’analyse d’incident nécessite la dépendance Technology→Application→Business.
+- **Q265 — B — une vue cross-layer Green IT** — Le concern carbone traverse objectifs, applications, technologies et actifs physiques.
+- **Q266 — D — Viewpoint = manière/convention de construire; View = représentation produite** — Viewpoint et View ne sont pas synonymes.
+- **Q267 — A — Stakeholder → Concern → Viewpoint → View** — C’est la chaîne de conception d’une vue concern-driven.
+- **Q268 — A — Parce qu’elle doit répondre à un concern précis et rester lisible.** — La valeur d’une vue dépend de sa pertinence pour le stakeholder.
+- **Q269 — B — Oui, et il devrait rester le même élément logique.** — Les vues réutilisent le référentiel, elles ne recréent pas les concepts.
+- **Q270 — D — Parce que cela casse la cohérence, l’identité et la traçabilité du référentiel.** — Un élément canonique doit être réutilisé.
+- **Q271 — A — Goals, Capabilities, Plateaus, Gaps et Work Packages pertinents** — Une vue executive doit montrer décision, état et trajectoire.
+- **Q272 — D — Artifacts, nodes, system software et déploiements/dépendances pertinentes** — Deployment se concentre sur l’exécution concrète.
+- **Q273 — C — de devenir un inventaire technique de tous les nœuds** — Application Usage doit rester centré sur l’usage applicatif par le métier.
+- **Q274 — A — de remplacer les capacités par des produits techniques nommés sans justification** — Capability décrit une aptitude, pas un produit.
+- **Q275 — C — Layered / impact analysis cross-layer** — Il faut remonter de la technologie vers applications et services métier.
+- **Q276 — A — Application Cooperation/Usage avec Interfaces et Services** — Le concern porte sur exposition et consommation d’API.
+- **Q277 — A — Layered avec Technology + Physical + Application/Business** — Il faut relier le service à ses supports physiques.
+- **Q278 — A — Implementation & Migration View** — Les gaps et la trajectoire sont au cœur de cette vue.
+- **Q279 — D — Motivation View** — Drivers, Assessments et Goals appartiennent à Motivation.
+- **Q280 — B — Capability View** — Elle répond directement à la question des aptitudes à renforcer.
+- **Q281 — C — Value Stream View** — Elle montre les étapes de création de valeur.
+- **Q282 — B — Organization View** — Actor/Role/Collaboration répondent à « qui est responsable ? ».
+- **Q283 — D — Application Cooperation / Information Structure selon le concern** — Le choix dépend de savoir si l’on privilégie échanges applicatifs ou structure de l’information.
+- **Q284 — B — Non; on peut construire une vue adaptée au concern sécurité avec les concepts pertinents.** — Security n’est pas une couche ArchiMate distincte.
+- **Q285 — C — Non; c’est une vue construite à partir de concepts pertinents pour un concern Green IT.** — Green IT est un concern transversal.
+- **Q286 — B — Le concern n’est pas clairement cadré.** — Avant de réduire le diagramme, il faut définir la question à laquelle il répond.
+- **Q287 — C — Elle permet au stakeholder de répondre à sa question avec une sémantique correcte et une complexité maîtrisée.** — Qualité = pertinence + justesse + lisibilité.
+- **Q288 — B — Non.** — Une vue ne montre que ce qui sert le concern.
+- **Q289 — C — Oui, si le concern nécessite une analyse cross-layer.** — Les vues peuvent traverser plusieurs couches.
+- **Q290 — C — Parce qu’elles répondent à des stakeholders et concerns différents tout en réutilisant le même modèle.** — Les vues diffèrent, le référentiel reste commun.
+- **Q291 — A — Stakeholder identifié, concern explicite, éléments nécessaires, relations justes, lisibilité vérifiée.** — C’est un Definition of Done robuste pour une vue.
+- **Q292 — A — Non; c’est une représentation d’une sélection d’éléments du modèle.** — La View ne remplace pas le modèle complet.
+- **Q293 — C — Réutiliser le même élément logique dans les deux vues.** — C’est la base d’un référentiel cohérent.
+- **Q294 — A — On voit les travaux mais pas les états d’architecture obtenus.** — Plateaus rendent la transformation compréhensible.
+- **Q295 — B — Elle confond moyens techniques et aptitudes organisationnelles.** — Application Component et Capability ont des rôles distincts.
+- **Q296 — A — Vérifier le niveau d’abstraction et les relations entre concept métier, donnée logique et artefact physique.** — Les trois niveaux peuvent coexister si leur sens est clair.
+- **Q297 — A — la traçabilité cross-layer** — C’est précisément l’intérêt de relier Physical/Technology/Application/Business.
+- **Q298 — D — Non; cela peut suffire pour certains concerns, mais pas pour analyser l’écart ou la transformation.** — Une vue est conçue pour un besoin précis.
+- **Q299 — B — Non; elle doit montrer les éléments nécessaires et expliquer les choix.** — L’expertise se voit dans la pertinence du modèle, pas dans la densité.
+- **Q300 — D — Layered View** — Layered View est adaptée aux chaînes cross-layer.
+- **Q301 — D — Serving** — La consommation de fonctionnalité relève de Serving.
+- **Q302 — A — Implementation & Migration View** — Elle représente la trajectoire de transformation.
+- **Q303 — C — Goal** — Un état souhaité de haut niveau est un Goal.
+- **Q304 — C — Capability** — C’est une aptitude organisationnelle.
+- **Q305 — A — Course of Action** — Il s’agit d’une approche choisie.
+- **Q306 — C — Work Package** — C’est un lot de travaux concret.
+- **Q307 — C — Implementation Event** — C’est un jalon de transformation.
+- **Q308 — C — Application Interface** — L’endpoint est un point d’accès applicatif.
+- **Q309 — C — Application Service** — La fonctionnalité exposée est un Application Service.
+- **Q310 — C — Application Component** — Le composant est la structure active applicative.
+- **Q311 — C — Artifact** — L’image de conteneur est un artefact de déploiement.
+- **Q312 — C — System Software** — OpenShift comme runtime est du System Software.
+- **Q313 — A — Technology Service** — La fonctionnalité technologique exposée est un Technology Service.
+- **Q314 — C — Node** — Le cluster comme environnement d’exécution est un Node dans ce concern.
+- **Q315 — D — Device** — Les serveurs physiques IT sont des Devices.
+- **Q316 — C — Facility** — Le datacenter est une Facility.
+- **Q317 — C — Equipment** — Le groupe électrogène est un Equipment.
+- **Q318 — A — Material** — L’électricité peut être représentée comme Material dans une vue physique/Green IT.
+- **Q319 — A — une mesure/propriété ou donnée, pas un Material** — La quantité mesurée est distincte de la matière/énergie représentée.
+- **Q320 — A — Business Event** — Au niveau métier, le fait est un Business Event.
+- **Q321 — A — Application Event** — Le fait interne au système est un Application Event.
+- **Q322 — B — Technology Event** — Une panne de nœud est un événement technologique.
+- **Q323 — C — Implementation Event** — Le jalon « legacy powered off » est un événement de transformation.
+- **Q324 — C — Data Object** — Le payload logique est un Data Object.
+- **Q325 — D — Artifact** — Le fichier de schéma versionné est un Artifact.
+- **Q326 — A — Business Object** — Payment Order au niveau métier est un Business Object.
+- **Q327 — A — Access** — Lire un Data Object est un Access.
+- **Q328 — D — Serving** — Le service de fraude fournit une fonctionnalité à l’orchestrateur.
+- **Q329 — B — Realization** — La fonction interne réalise le service externe.
+- **Q330 — B — Assignment** — Le composant est assigné au comportement qu’il exécute.
+- **Q331 — A — Triggering** — La validation déclenche l’étape suivante.
+- **Q332 — D — Flow** — Le résultat est transféré vers le service de notification.
+- **Q333 — C — Influence** — Le Driver affecte le Goal.
+- **Q334 — A — Kafka comme System Software; l’événement est modélisé séparément.** — Plateforme et fait ne doivent pas être confondus.
+- **Q335 — A — Il confond une aptitude organisationnelle avec un logiciel de plateforme.** — Capability n’est pas un synonyme de produit.
+- **Q336 — D — Application Interface** — Le concern porte sur le point d’accès de l’API.
+- **Q337 — C — Les dépendances, coûts et impacts legacy peuvent rester malgré la cible.** — Une cible sans exit plan peut laisser la dette en place.
+- **Q338 — C — Plateau** — L’état hybride relativement stable est un Plateau.
+- **Q339 — B — Gap** — L’élément manquant entre baseline et target est un Gap.
+- **Q340 — A — Requirement** — RTO est une exigence de solution/résilience.
+- **Q341 — C — Deliverable** — Le rapport approuvé est un résultat produit par le programme.
+- **Q342 — A — Implementation & Migration View** — Elle répond aux travaux, jalons et états.
+- **Q343 — A — une vue cross-layer sécurité orientée concern** — Le concern traverse IAM, applications et technologies.
+- **Q344 — D — Strategy/Capability + Transformation** — Le CIO a besoin à la fois de la direction et de la trajectoire.
+- **Q345 — D — Application Usage View** — Elle relie processus métier et support applicatif.
+- **Q346 — D — Deployment/Technology View** — Le concern est l’emplacement/runtime du composant.
+- **Q347 — B — impact analysis cross-layer** — On remonte des dépendances technologiques vers le métier.
+- **Q348 — A — Pour réutiliser les mêmes éléments dans plusieurs vues et conserver la traçabilité.** — Le référentiel canonique préserve identité et cohérence.
+- **Q349 — C — Non; elle valide surtout syntaxe et conventions, pas toute la sémantique.** — La revue sémantique reste nécessaire.
+- **Q350 — A — Choisir les éléments et relations selon le rôle architectural et le concern, pas selon le nom du produit.** — ArchiMate modélise le sens architectural dans un contexte donné.

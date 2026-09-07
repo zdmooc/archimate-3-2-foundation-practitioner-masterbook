@@ -1,0 +1,179 @@
+# Corrections Q001–Q175
+
+> Chaque entrée donne la lettre, la réponse et la discrimination essentielle.
+
+- **Q001 — D — Stakeholder** — Stakeholder représente une partie prenante qui porte des concerns.
+- **Q002 — B — Driver** — Driver exprime une force ou condition qui motive l’organisation.
+- **Q003 — C — Assessment** — Assessment qualifie/analyse un driver, par exemple une faiblesse ou un risque.
+- **Q004 — D — Goal** — Goal exprime un objectif désiré, plus abstrait qu’un résultat mesurable.
+- **Q005 — D — Outcome** — Outcome est un résultat concret/mesurable qui contribue à des goals.
+- **Q006 — B — Principle** — Principle guide les décisions d’architecture de manière générale.
+- **Q007 — B — Requirement** — Requirement précise ce que l’architecture doit satisfaire.
+- **Q008 — B — Constraint** — Constraint limite l’espace des solutions possibles.
+- **Q009 — C — Meaning** — Meaning porte la signification d’une information ou d’un concept.
+- **Q010 — D — Value** — Value exprime ce qu’un élément apporte ou représente pour une partie prenante.
+- **Q011 — D — Resource** — Resource représente un actif utilisé pour réaliser des capacités.
+- **Q012 — B — Capability** — Capability décrit ce que l’organisation est capable de faire, indépendamment du workflow précis.
+- **Q013 — C — Value Stream** — Value Stream se concentre sur les étapes de création de valeur, pas sur l’orchestration opérationnelle détaillée.
+- **Q014 — C — Course of Action** — Course of Action décrit une approche stratégique.
+- **Q015 — A — Active Structure** — Active Structure regroupe les éléments qui exécutent du comportement.
+- **Q016 — A — Behavior** — Behavior décrit les activités/fonctions/processus/services.
+- **Q017 — D — Passive Structure** — Passive Structure concerne les objets d’information ou matériels manipulés.
+- **Q018 — A — Internal** — Internal signifie que l’élément est interne au système/organisation considéré.
+- **Q019 — D — External** — External met l’accent sur l’accès ou le service visible de l’extérieur.
+- **Q020 — B — Interface** — Une interface est le point d’accès; le service est la fonctionnalité fournie.
+- **Q021 — C — Driver** — La pression de l’obsolescence est un Driver; le Goal serait l’état souhaité après le changement.
+- **Q022 — C — Assessment** — Le constat issu de l’analyse d’un driver est un Assessment.
+- **Q023 — D — Goal** — C’est un état souhaité de haut niveau: un Goal.
+- **Q024 — D — Outcome** — La formulation est mesurable et représente un résultat attendu: Outcome.
+- **Q025 — B — Requirement** — Il s’agit d’un besoin que la solution doit satisfaire.
+- **Q026 — B — Constraint** — La phrase restreint l’espace de conception: Constraint.
+- **Q027 — C — Principle** — Une règle générale et durable est un Principle.
+- **Q028 — A — Resource** — Une équipe/compétence disponible peut être modélisée comme Resource selon le concern.
+- **Q029 — A — Capability** — Une aptitude organisationnelle est une Capability.
+- **Q030 — C — Value Stream** — Une séquence orientée valeur est un Value Stream.
+- **Q031 — A — Course of Action** — C’est une approche choisie, donc Course of Action; les travaux concrets seront des Work Packages.
+- **Q032 — B — Active Structure** — Le serveur est une structure active qui héberge/exécute du comportement ou des logiciels.
+- **Q033 — A — Behavior** — Une activité est du Behavior.
+- **Q034 — B — Passive Structure** — L’objet manipulé est de la Passive Structure.
+- **Q035 — D — Interface** — L’API en tant que point d’accès est une Interface.
+- **Q036 — D — un intérêt ou une préoccupation du stakeholder** — Le concern est ce que le stakeholder veut comprendre, décider ou contrôler.
+- **Q037 — B — Le Goal décrit un état souhaité; le Requirement décrit ce que la solution doit satisfaire.** — Goal et Requirement ont des niveaux d’abstraction et des rôles différents.
+- **Q038 — B — Capability décrit une aptitude; Business Process décrit un enchaînement de comportements.** — Capability répond à « que savons-nous faire ? », Process à « comment cela s’enchaîne ? ».
+- **Q039 — B — Driver → Assessment → Goal → Requirement → Capability** — La chaîne exprime pression, analyse, objectif, besoin puis aptitude à mettre en place.
+- **Q040 — B — Parce qu’un produit/logiciel n’est pas en soi une aptitude organisationnelle.** — La Capability pourrait être « Container Platform Operations »; Kubernetes est plutôt une technologie/logiciel.
+- **Q041 — C — Value** — Value exprime l’utilité/importance perçue.
+- **Q042 — A — Meaning** — Meaning peut exprimer l’interprétation ou la connaissance communiquée.
+- **Q043 — C — Principle** — Sa nature transversale et durable en fait un Principle.
+- **Q044 — C — Parce qu’elle restreint explicitement les options de conception.** — Constraint exprime précisément une restriction.
+- **Q045 — A — Outcome** — Le caractère quantifié et résultat final correspond à Outcome.
+- **Q046 — C — Course of Action pour l’approche, puis Work Package pour l’exécution.** — La stratégie choisie est Course of Action; les travaux planifiés relèvent d’Implementation & Migration.
+- **Q047 — B — Resource** — Resource représente les actifs disponibles.
+- **Q048 — C — Capability** — Capability exprime l’aptitude requise.
+- **Q049 — D — Course of Action** — Course of Action représente l’approche stratégique choisie.
+- **Q050 — D — Value Stream** — Value Stream met l’accent sur les étapes de création de valeur.
+- **Q051 — D — Business Actor** — Actor représente l’entité qui agit.
+- **Q052 — B — Business Role** — Role décrit une responsabilité, pas la personne/organisation elle-même.
+- **Q053 — D — Business Collaboration** — Collaboration représente une coopération collective.
+- **Q054 — B — Business Interface** — Interface est le point d’accès au service.
+- **Q055 — B — Business Process** — Process insiste sur l’ordre/enchaînement.
+- **Q056 — B — Business Function** — Function regroupe du comportement sans imposer un ordre de flux.
+- **Q057 — D — Business Interaction** — Interaction est un comportement collectif.
+- **Q058 — D — Business Event** — Event est un fait/changement d’état.
+- **Q059 — A — Business Service** — Service est le comportement externe visible.
+- **Q060 — B — Business Object** — Business Object représente l’information au niveau métier.
+- **Q061 — C — Representation** — Representation est la forme visible/physique/digitale d’un objet métier.
+- **Q062 — D — Contract** — Contract modélise l’accord et ses conditions.
+- **Q063 — D — Product** — Product agrège une offre de valeur.
+- **Q064 — A — Application Component** — Component représente une structure active applicative.
+- **Q065 — D — Application Collaboration** — Collaboration est la structure active collective.
+- **Q066 — B — Application Interface** — Interface est le point d’accès.
+- **Q067 — B — Application Function** — Function décrit ce que l’application exécute en interne.
+- **Q068 — C — Application Process** — Process insiste sur l’ordre des étapes applicatives.
+- **Q069 — A — Application Interaction** — Interaction est le comportement collectif.
+- **Q070 — B — Application Event** — Application Event représente un fait applicatif.
+- **Q071 — B — Application Service** — Application Service est la fonctionnalité fournie.
+- **Q072 — D — Data Object** — Data Object est la représentation logique d’information au niveau Application.
+- **Q073 — C — Business Actor assigné à un Business Role** — Actor = entité; Role = responsabilité portée.
+- **Q074 — B — Business Process** — Le besoin d’ordre séquentiel favorise Business Process.
+- **Q075 — D — Business Function** — Function regroupe le comportement par finalité/compétence.
+- **Q076 — C — Business Event** — Le fait métier est un Business Event.
+- **Q077 — B — Business Service** — La fonctionnalité externe au niveau métier est Business Service.
+- **Q078 — D — Business Interface** — Le canal peut être modélisé comme Business Interface selon le concern.
+- **Q079 — D — Business Object** — Le concept métier est Business Object.
+- **Q080 — A — Representation** — Representation est la forme perceptible d’un objet métier.
+- **Q081 — B — Product** — Product représente une offre cohérente de services/contrats.
+- **Q082 — A — Business Interaction** — Interaction = comportement collectif; Collaboration = structure collective.
+- **Q083 — A — Business Collaboration** — Collaboration représente la structure active collective.
+- **Q084 — D — Application Component** — Le composant est la structure active qui réalise le service.
+- **Q085 — B — Application Interface** — API comme point d’accès = Application Interface.
+- **Q086 — D — Application Function** — C’est du comportement interne applicatif.
+- **Q087 — D — Application Process** — L’ordre d’étapes applicatives correspond à Application Process.
+- **Q088 — C — Application Interaction** — Interaction = comportement collectif de composants.
+- **Q089 — A — Application Event** — C’est un fait/changement d’état applicatif.
+- **Q090 — D — Application Service** — Service = fonctionnalité exposée au consommateur.
+- **Q091 — B — Data Object** — Au niveau Application, l’information structurée est Data Object.
+- **Q092 — D — Parce qu’il faut distinguer le point d’accès (Interface) de la fonctionnalité fournie (Service).** — Le choix dépend du concern; interface et service ont des sémantiques distinctes.
+- **Q093 — B — Application Component → réalise Application Service → exposé via Application Interface** — Le composant réalise le service; l’interface l’expose.
+- **Q094 — C — Business Object / Data Object** — Business Object est conceptuel métier; Data Object est information logique applicative.
+- **Q095 — B — Data Object** — La table ou donnée logique relève du Data Object; le SGBD relève de Technology.
+- **Q096 — B — Business Service et Application Service sont deux niveaux différents.** — Les couches expriment des responsabilités différentes.
+- **Q097 — C — Business Event** — Au niveau métier, le fait est un Business Event.
+- **Q098 — A — Application Event** — Au niveau applicatif, le fait est un Application Event.
+- **Q099 — C — Contract** — Contract représente les conditions formelles/informelles d’accord.
+- **Q100 — B — Business Actor ou Business Role selon le concern** — Active Structure répond à qui/quoi exécute le comportement.
+- **Q101 — D — Node** — Node représente une ressource computationnelle ou d’exécution.
+- **Q102 — C — Device** — Device représente un matériel IT physique.
+- **Q103 — B — System Software** — System Software couvre OS, middleware, DBMS, container platform, etc.
+- **Q104 — B — Technology Service** — Technology Service est la fonctionnalité fournie.
+- **Q105 — B — Technology Function** — Technology Function est du comportement interne.
+- **Q106 — C — Technology Process** — Technology Process insiste sur l’ordre.
+- **Q107 — A — Technology Event** — Technology Event représente un fait technologique.
+- **Q108 — D — Technology Interface** — Technology Interface est le point d’accès technologique.
+- **Q109 — B — Path** — Path représente un canal de communication entre nœuds.
+- **Q110 — C — Communication Network** — Communication Network représente le réseau de communication.
+- **Q111 — D — Artifact** — Artifact est un objet concret de déploiement/stockage.
+- **Q112 — C — Equipment** — Equipment couvre par exemple UPS, générateur, chiller.
+- **Q113 — D — Facility** — Facility couvre datacenter, bâtiment, salle.
+- **Q114 — D — Distribution Network** — Distribution Network concerne la distribution physique non informationnelle.
+- **Q115 — B — Material** — Material peut représenter électricité, fuel, eau de refroidissement selon le concern.
+- **Q116 — B — Node** — Une VM est une ressource d’exécution logique, donc Node.
+- **Q117 — D — Device** — Le serveur physique est un Device lorsqu’on met l’accent sur le matériel IT.
+- **Q118 — A — System Software** — Le produit/runtime OpenShift est du System Software.
+- **Q119 — D — Technology Service** — La fonctionnalité technologique exposée est un Technology Service.
+- **Q120 — A — System Software** — Kafka comme plateforme logicielle est System Software.
+- **Q121 — C — Technology Service** — Le service de streaming consommé est Technology Service.
+- **Q122 — A — Artifact** — Le fichier déployable concret est un Artifact.
+- **Q123 — C — Artifact** — L’image est un artefact de déploiement; le composant applicatif est le concept logique.
+- **Q124 — D — System Software** — Le SGBD est System Software.
+- **Q125 — D — Technology Service** — Le service de base de données est la fonctionnalité technologique consommée.
+- **Q126 — D — Technology Event** — La panne au niveau infrastructure est un Technology Event.
+- **Q127 — B — Technology Interface** — Le point d’accès à un service technologique est Technology Interface.
+- **Q128 — C — Path** — Path convient au canal de communication entre nœuds.
+- **Q129 — C — Communication Network** — Le réseau de communication global est Communication Network.
+- **Q130 — D — Facility** — Un datacenter est une Facility.
+- **Q131 — C — Equipment** — UPS est un équipement physique non-IT.
+- **Q132 — D — Equipment** — Le générateur est Equipment.
+- **Q133 — D — Distribution Network** — Il distribue de l’énergie, donc Distribution Network.
+- **Q134 — C — Material** — L’énergie peut être représentée comme Material si elle est pertinente.
+- **Q135 — B — Non; c’est une mesure/propriété ou donnée, pas la matière elle-même.** — Material représente l’énergie/matière; la mesure est une propriété/donnée/assessment selon le concern.
+- **Q136 — D — Non; le type dépend du concern, mais un cluster comme environnement d’exécution peut être Node.** — ArchiMate modélise un rôle architectural selon le concern, pas un mapping produit rigide.
+- **Q137 — D — Non; uniquement si ce niveau de détail répond au concern.** — Le niveau de détail doit rester utile au stakeholder.
+- **Q138 — C — Application Component → Artifact → Node** — Le composant logique est représenté par un artefact déployé sur un nœud.
+- **Q139 — A — System Software réalise/fournit un Technology Service consommé par l’application** — Produit/runtime et fonctionnalité exposée sont distincts.
+- **Q140 — C — Device + Facility** — Device représente le matériel IT; Facility le site/bâtiment.
+- **Q141 — D — une vue cross-layer Business/Application/Technology/Physical** — L’impact physique nécessite une chaîne cross-layer.
+- **Q142 — B — Device** — Un équipement réseau IT est généralement un Device.
+- **Q143 — C — Equipment** — Un chiller appartient au Physical Layer comme Equipment.
+- **Q144 — B — Communication Network ou Path selon le niveau de modélisation** — Les données utilisent les concepts de connectivité technologique, pas Distribution Network.
+- **Q145 — D — Distribution Network** — Il distribue une ressource physique.
+- **Q146 — C — Non; la fonctionnalité consommée peut être un Technology Service, tandis que le produit est System Software.** — Il faut distinguer fournisseur technologique et fonctionnalité exposée.
+- **Q147 — D — Artifact** — Un fichier concret de configuration est un Artifact.
+- **Q148 — D — Artifact** — Le fichier de schéma concret est un Artifact; le payload logique peut être Data Object.
+- **Q149 — B — Data Object** — La structure logique de données est Data Object.
+- **Q150 — D — Non; le topic est un construct technique, l’événement représente un fait.** — Il faut séparer fait, données et mécanisme de transport.
+- **Q151 — A — Work Package** — Work Package représente l’exécution planifiée de travaux.
+- **Q152 — B — Deliverable** — Deliverable est un résultat de projet/transformation.
+- **Q153 — C — Implementation Event** — Implementation Event marque un événement du programme de transformation.
+- **Q154 — D — Plateau** — Plateau représente un état d’architecture relativement stable.
+- **Q155 — C — Gap** — Gap exprime ce qui manque entre baseline et target.
+- **Q156 — A — Work Package** — C’est un ensemble de travaux planifiés.
+- **Q157 — D — Deliverable** — Le résultat livré par le Work Package est un Deliverable.
+- **Q158 — D — Implementation Event** — C’est un événement de transformation.
+- **Q159 — A — Plateau** — Le baseline peut être représenté par un Plateau.
+- **Q160 — D — Plateau** — Un état de transition relativement stable est un Plateau.
+- **Q161 — D — Plateau** — Le target stable peut être représenté par un Plateau.
+- **Q162 — A — Gap** — Le manque identifié entre états est un Gap.
+- **Q163 — C — Requirement** — RPO est une exigence; le manque pour l’atteindre peut être un Gap.
+- **Q164 — C — Course of Action** — C’est une approche stratégique; les lots concrets sont des Work Packages.
+- **Q165 — B — Course of Action décrit l’approche; Work Package décrit les travaux exécutés.** — Ils appartiennent à des niveaux différents: stratégie vs exécution.
+- **Q166 — D — Pas nécessairement; l’Artifact est le fichier concret, le Deliverable est le résultat de projet attendu.** — Deliverable et Artifact doivent être distingués.
+- **Q167 — D — Implementation Event** — C’est un jalon de transformation qui change l’état.
+- **Q168 — A — Technology Event** — La panne technique est un Technology Event; elle n’est pas un jalon de transformation planifié.
+- **Q169 — B — un ou plusieurs Deliverables** — Les Work Packages produisent des résultats définis.
+- **Q170 — B — Plateau** — L’état hybride peut être représenté comme Plateau.
+- **Q171 — A — Par une combinaison de Plateaus, Work Packages, Gaps, Deliverables et Implementation Events.** — Roadmap n’est pas un type d’élément unique; c’est une vue combinant plusieurs concepts.
+- **Q172 — C — Non; il se modélise avec Requirements, Work Packages, Deliverables, Events et Plateaus selon le concern.** — Rollback est un concept de scénario, pas un type d’élément dédié.
+- **Q173 — B — Deliverable** — Le plan approuvé est un résultat de préparation du programme.
+- **Q174 — A — Work Package ou activité détaillée selon le niveau** — L’exécution d’un rollback est un travail/action de transformation.
+- **Q175 — A — Implementation Event menant à un Plateau restauré** — Le jalon de rollback conduit à un état d’architecture stable restauré.
