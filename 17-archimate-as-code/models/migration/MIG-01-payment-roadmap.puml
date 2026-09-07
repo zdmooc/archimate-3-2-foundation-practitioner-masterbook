@@ -1,0 +1,35 @@
+@startuml MIG-01 Payment Roadmap
+!include <archimate/Archimate>
+!theme archimate-standard from <archimate/themes>
+LAYOUT_LEFT_RIGHT()
+
+title MayaBank — MIG-01 Payment Transformation Roadmap
+
+Implementation_Plateau(PL_Legacy, "P0 Legacy Payment Platform")
+Implementation_Gap(GAP_API, "API Capability Gap")
+Implementation_Gap(GAP_Event, "Event Streaming Gap")
+Implementation_WorkPackage(WP_API, "WP1 API Foundation")
+Implementation_Event(EV_API, "API Foundation Operational")
+Implementation_Plateau(PL_Hybrid1, "P1 Controlled Coexistence")
+Implementation_WorkPackage(WP_Event, "WP2 Event Backbone")
+Implementation_Event(EV_Event, "Event Backbone Production Ready")
+Implementation_Plateau(PL_Hybrid2, "P2 Event-Enabled Coexistence")
+Implementation_WorkPackage(WP_Decommission, "WP3 Legacy Decommission")
+Implementation_Event(EV_Shutdown, "Legacy Payment Engine Shutdown")
+Implementation_Plateau(PL_Target, "P3 Target Payment Platform")
+
+Rel_Association(GAP_API, PL_Legacy)
+Rel_Association(GAP_Event, PL_Legacy)
+Rel_Triggering(PL_Legacy, WP_API)
+Rel_Triggering(WP_API, EV_API)
+Rel_Triggering(EV_API, PL_Hybrid1)
+Rel_Triggering(PL_Hybrid1, WP_Event)
+Rel_Triggering(WP_Event, EV_Event)
+Rel_Triggering(EV_Event, PL_Hybrid2)
+Rel_Triggering(PL_Hybrid2, WP_Decommission)
+Rel_Triggering(WP_Decommission, EV_Shutdown)
+Rel_Triggering(EV_Shutdown, PL_Target)
+Rel_Association(GAP_API, PL_Target)
+Rel_Association(GAP_Event, PL_Target)
+
+@enduml

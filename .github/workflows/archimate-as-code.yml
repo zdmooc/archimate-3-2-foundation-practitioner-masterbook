@@ -1,0 +1,37 @@
+name: ArchiMate as Code
+
+on:
+  pull_request:
+    paths:
+      - '17-archimate-as-code/**'
+      - '.github/workflows/archimate-as-code.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - '17-archimate-as-code/**'
+      - '.github/workflows/archimate-as-code.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate-and-render:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate ArchiMate PlantUML sources
+        run: bash 17-archimate-as-code/scripts/check.sh
+
+      - name: Render SVG diagrams
+        run: bash 17-archimate-as-code/scripts/render.sh
+
+      - name: Upload generated diagrams
+        uses: actions/upload-artifact@v4
+        with:
+          name: archimate-svg
+          path: 17-archimate-as-code/generated/*.svg
+          if-no-files-found: error

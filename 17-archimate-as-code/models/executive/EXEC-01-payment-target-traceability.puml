@@ -1,0 +1,33 @@
+@startuml EXEC-01 Payment Target Traceability
+!include <archimate/Archimate>
+!theme archimate-standard from <archimate/themes>
+LAYOUT_TOP_DOWN()
+
+title MayaBank — EXEC-01 Payment Target Traceability
+
+Motivation_Driver(DRV_RealTime, "Real-Time Customer Expectation")
+Motivation_Goal(GOAL_Resilience, "Resilient Real-Time Payments")
+Motivation_Requirement(REQ_24x7, "24x7 Payment Processing")
+Strategy_Capability(CAP_Payment, "Real-Time Payment Processing")
+Business_Process(BP_Payment, "Execute Instant Payment")
+Business_Service(BS_Payment, "Instant Payment Service")
+Application_Service(AS_Orchestration, "Payment Orchestration Service")
+Application_Component(AC_Orchestrator, "Payment Orchestrator")
+Technology_Service(TS_Container, "Container Platform Service")
+Technology_Service(TS_EventStreaming, "Event Streaming Service")
+Technology_SystemSoftware(SS_OpenShift, "OpenShift")
+Technology_SystemSoftware(SS_Kafka, "Kafka")
+
+Rel_Influence(DRV_RealTime, GOAL_Resilience)
+Rel_Influence(REQ_24x7, GOAL_Resilience)
+Rel_Realization(CAP_Payment, GOAL_Resilience)
+Rel_Realization(BP_Payment, CAP_Payment)
+Rel_Realization(BP_Payment, BS_Payment)
+Rel_Serving(AS_Orchestration, BP_Payment)
+Rel_Realization(AC_Orchestrator, AS_Orchestration)
+Rel_Serving(TS_Container, AC_Orchestrator)
+Rel_Serving(TS_EventStreaming, AC_Orchestrator)
+Rel_Realization(SS_OpenShift, TS_Container)
+Rel_Realization(SS_Kafka, TS_EventStreaming)
+
+@enduml

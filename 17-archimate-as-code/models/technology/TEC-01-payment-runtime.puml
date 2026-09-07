@@ -1,0 +1,38 @@
+@startuml TEC-01 Payment Runtime
+!include <archimate/Archimate>
+!theme archimate-standard from <archimate/themes>
+LAYOUT_TOP_DOWN()
+
+title MayaBank — TEC-01 Payment Runtime
+
+Application_Component(AC_Orchestrator, "Payment Orchestrator")
+Application_Component(AC_Fraud, "Fraud Engine")
+Technology_Service(TS_Container, "Container Platform Service")
+Technology_Service(TS_EventStreaming, "Event Streaming Service")
+Technology_Service(TS_Database, "Database Service")
+Technology_SystemSoftware(SS_OpenShift, "OpenShift")
+Technology_SystemSoftware(SS_Kafka, "Kafka")
+Technology_SystemSoftware(SS_PostgreSQL, "PostgreSQL")
+Technology_Node(N_ProdCluster, "OpenShift Production Cluster")
+Technology_Node(N_KafkaCluster, "Kafka Cluster")
+Technology_Node(N_DBCluster, "Database Cluster")
+Technology_Artifact(ART_Orchestrator, "Payment Orchestrator Container Image")
+Physical_Facility(FAC_SiteA, "MayaBank Site A")
+Physical_Facility(FAC_SiteB, "MayaBank Site B")
+
+Rel_Serving(TS_Container, AC_Orchestrator)
+Rel_Serving(TS_Container, AC_Fraud)
+Rel_Serving(TS_EventStreaming, AC_Orchestrator)
+Rel_Serving(TS_Database, AC_Orchestrator)
+Rel_Realization(SS_OpenShift, TS_Container)
+Rel_Realization(SS_Kafka, TS_EventStreaming)
+Rel_Realization(SS_PostgreSQL, TS_Database)
+Rel_Assignment(N_ProdCluster, SS_OpenShift)
+Rel_Assignment(N_KafkaCluster, SS_Kafka)
+Rel_Assignment(N_DBCluster, SS_PostgreSQL)
+Rel_Association(ART_Orchestrator, N_ProdCluster)
+Rel_Association(N_ProdCluster, FAC_SiteA)
+Rel_Association(N_KafkaCluster, FAC_SiteA)
+Rel_Association(N_DBCluster, FAC_SiteB)
+
+@enduml

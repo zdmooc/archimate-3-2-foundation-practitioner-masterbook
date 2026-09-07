@@ -1,0 +1,32 @@
+@startuml APP-01 Payment Orchestration
+!include <archimate/Archimate>
+!theme archimate-standard from <archimate/themes>
+LAYOUT_LEFT_RIGHT()
+
+title MayaBank — APP-01 Payment Orchestration
+
+Business_Process(BP_Execute, "Execute Instant Payment")
+Application_Interface(AI_PaymentAPI, "Payment REST API")
+Application_Service(AS_Initiation, "Payment Initiation Service")
+Application_Service(AS_Fraud, "Fraud Decision Service")
+Application_Component(AC_API, "Payment API Facade")
+Application_Component(AC_Orchestrator, "Payment Orchestrator")
+Application_Component(AC_Fraud, "Fraud Engine")
+Application_Process(AP_Orchestrate, "Orchestrate Payment")
+Application_Event(AE_Received, "Payment Order Received")
+Application_Event(AE_Completed, "Payment Completed")
+Application_DataObject(DO_Instruction, "Payment Instruction")
+Application_DataObject(DO_FraudDecision, "Fraud Decision")
+
+Rel_Serving(AS_Initiation, BP_Execute)
+Rel_Realization(AC_API, AS_Initiation)
+Rel_Assignment(AI_PaymentAPI, AS_Initiation)
+Rel_Assignment(AC_Orchestrator, AP_Orchestrate)
+Rel_Realization(AC_Fraud, AS_Fraud)
+Rel_Triggering(AE_Received, AP_Orchestrate)
+Rel_Access(AP_Orchestrate, DO_Instruction)
+Rel_Serving(AS_Fraud, AP_Orchestrate)
+Rel_Access(AC_Fraud, DO_FraudDecision)
+Rel_Triggering(AP_Orchestrate, AE_Completed)
+
+@enduml

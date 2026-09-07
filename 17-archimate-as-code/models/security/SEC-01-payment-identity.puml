@@ -1,0 +1,30 @@
+@startuml SEC-01 Payment Identity
+!include <archimate/Archimate>
+!theme archimate-standard from <archimate/themes>
+LAYOUT_LEFT_RIGHT()
+
+title MayaBank — SEC-01 Payment Identity
+
+Motivation_Requirement(REQ_StrongAuth, "Strong Authentication")
+Motivation_Requirement(REQ_LeastPrivilege, "Least Privilege")
+Application_Interface(AI_PaymentAPI, "Payment REST API")
+Application_Component(AC_Orchestrator, "Payment Orchestrator")
+Technology_Service(TS_Identity, "Identity Service")
+Technology_Service(TS_Authorization, "Authorization Service")
+Technology_Service(TS_Secrets, "Secrets Service")
+Technology_SystemSoftware(SS_IdP, "Identity Provider")
+Technology_SystemSoftware(SS_Policy, "Policy Engine")
+Technology_SystemSoftware(SS_Vault, "Secrets Platform")
+
+Rel_Realization(SS_IdP, TS_Identity)
+Rel_Realization(SS_Policy, TS_Authorization)
+Rel_Realization(SS_Vault, TS_Secrets)
+Rel_Serving(TS_Identity, AI_PaymentAPI)
+Rel_Serving(TS_Authorization, AI_PaymentAPI)
+Rel_Serving(TS_Secrets, AC_Orchestrator)
+Rel_Association(REQ_StrongAuth, TS_Identity)
+Rel_Association(REQ_StrongAuth, TS_Authorization)
+Rel_Association(REQ_LeastPrivilege, TS_Authorization)
+Rel_Association(REQ_LeastPrivilege, TS_Secrets)
+
+@enduml
