@@ -93,10 +93,16 @@ Le cas fil rouge **MayaBank** représente une banque fictive qui modernise sa pl
 - contrôle de couverture : IDs continus, 4 choix A–D, 350 corrections, 350 énoncés distincts
 
 ### Partie XIX — Practitioner Scenario Bank
-À venir : scénarios Practitioner originaux.
+- [Ouvrir la Partie XIX](19-practitioner-scenario-bank/README.md)
+- **100 scénarios originaux S001–S100**
+- quatre réponses plausibles avec classement **5/3/1/0**
+- couverture : Motivation, Strategy, Business, Application, Technology, Physical, Migration, relations, viewpoints et use cases professionnels
 
 ### Partie XX — Mock Exams
-À venir : examens blancs Foundation et Practitioner avec corrections détaillées.
+- [Ouvrir la Partie XX](20-mock-exams/README.md)
+- **4 examens Foundation × 40 QCM = 160 questions**
+- **4 examens Practitioner × 8 scénarios = 32 scénarios**
+- corrections détaillées + [score et protocole de remédiation](20-mock-exams/score-and-review.md)
 
 ### Partie XXI — Cheat Sheets
 À venir : éléments, relations, layers, viewpoints et confusions critiques.
