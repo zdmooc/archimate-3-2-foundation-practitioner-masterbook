@@ -1,138 +1,111 @@
 # ArchiMate 3.2 — Foundation & Practitioner Masterbook
 
-> **Comprendre, lire, modéliser et expliquer une architecture d’entreprise avec ArchiMate 3.2.**
+> **Comprendre, lire, modéliser, expliquer et appliquer ArchiMate 3.2.**
 
-Ce livre est consacré au langage **ArchiMate 3.2** : structure du langage, éléments, relations, vues, viewpoints, transformations et utilisation sur des architectures réelles.
+**Statut : 24/24 parties terminées — audit final effectué le 7 septembre 2026.**
 
 Le cas fil rouge **MayaBank** représente une banque fictive qui modernise sa plateforme de paiements, ses applications, ses données et son infrastructure.
+
+- [Audit final](FINAL_AUDIT.md)
+- [Références officielles & certification](24-official-references/README.md)
 
 ---
 
 ## Table des matières
 
-### Partie I — Fondations du langage
-- [Pourquoi ArchiMate ?](01-foundations/01-why-archimate.md)
-- [Architecture d’entreprise et modélisation](01-foundations/02-enterprise-architecture-and-modeling.md)
-- [Structure du langage](01-foundations/03-language-structure.md)
-- [Couches et aspects](01-foundations/04-layers-and-aspects.md)
-- [Éléments, relations, vues et viewpoints](01-foundations/05-elements-relations-views-viewpoints.md)
-- [Lire un modèle](01-foundations/06-reading-an-archimate-model.md)
-- [ArchiMate et TOGAF](01-foundations/07-archimate-and-togaf.md)
+### I — Fondations
+[Ouvrir](01-foundations/01-why-archimate.md) — rôle d'ArchiMate, structure du langage, layers/aspects, lecture de modèles.
 
-### Partie II — Métamodèle et concepts génériques
-- [Métamodèle générique](02-metamodel/01-generic-metamodel.md)
-- [Active Structure, Behavior et Passive Structure](02-metamodel/02-active-behavior-passive-structure.md)
-- [Internal, External et Interface](02-metamodel/03-internal-external-interface.md)
+### II — Métamodèle
+[Ouvrir](02-metamodel/01-generic-metamodel.md) — Active Structure, Behavior, Passive Structure, internal/external/interface.
 
-### Partie III — Motivation
-- [Vue d’ensemble](03-motivation/00-overview.md)
-- Stakeholder, Driver, Assessment, Goal, Outcome, Principle, Requirement, Constraint, Meaning, Value
-- [Modèle Motivation MayaBank](03-motivation/05-motivation-complete-pattern.md)
+### III — Motivation
+[Ouvrir](03-motivation/00-overview.md) — Stakeholder, Driver, Assessment, Goal, Outcome, Principle, Requirement, Constraint, Meaning, Value.
 
-### Partie IV — Strategy
-- [Vue d’ensemble](04-strategy/00-overview.md)
-- Resource, Capability, Value Stream, Course of Action
-- [Modèle Strategy MayaBank](04-strategy/05-strategy-complete-pattern.md)
+### IV — Strategy
+[Ouvrir](04-strategy/00-overview.md) — Resource, Capability, Value Stream, Course of Action.
 
-### Partie V — Business Layer
-- [Ouvrir la Partie V](05-business-layer/README.md)
+### V — Business Layer
+[Ouvrir](05-business-layer/README.md)
 
-### Partie VI — Application Layer
-- [Ouvrir la Partie VI](06-application-layer/README.md)
+### VI — Application Layer
+[Ouvrir](06-application-layer/README.md)
 
-### Partie VII — Technology Layer
-- [Ouvrir la Partie VII](07-technology-layer/README.md)
+### VII — Technology Layer
+[Ouvrir](07-technology-layer/README.md)
 
-### Partie VIII — Physical Layer
-- [Ouvrir la Partie VIII](08-physical-layer/README.md)
+### VIII — Physical Layer
+[Ouvrir](08-physical-layer/README.md)
 
-### Partie IX — Implementation & Migration
-- [Ouvrir la Partie IX](09-implementation-migration/README.md)
+### IX — Implementation & Migration
+[Ouvrir](09-implementation-migration/README.md)
 
-### Partie X — Relations ArchiMate
-- [Ouvrir la Partie X](10-relations/README.md)
-- 120 exercices de relations
+### X — Relations
+[Ouvrir](10-relations/README.md) — **120 exercices**.
 
-### Partie XI — Views & Viewpoints
-- [Ouvrir la Partie XI](11-views-viewpoints/README.md)
+### XI — Views & Viewpoints
+[Ouvrir](11-views-viewpoints/README.md) — catalogue de viewpoints + **80 exercices**.
 
-### Partie XII — Patterns de modélisation & anti-patterns
-- [Ouvrir la Partie XII](12-modeling-patterns/README.md)
-- 30 patterns MayaBank + 100 exercices
+### XII — Patterns & anti-patterns
+[Ouvrir](12-modeling-patterns/README.md) — 30 patterns MayaBank + **100 exercices**.
 
-### Partie XIII — TOGAF ↔ ArchiMate
-- [Ouvrir la Partie XIII](13-togaf-archimate/README.md)
+### XIII — TOGAF ↔ ArchiMate
+[Ouvrir](13-togaf-archimate/README.md)
 
-### Partie XIV — MayaBank : modèle d’entreprise complet
-- [Ouvrir la Partie XIV](14-mayabank-enterprise-model/README.md)
-- registre canonique, traçabilité bidirectionnelle, 20 vues et 60 cas cross-layer
+### XIV — MayaBank Enterprise Model
+[Ouvrir](14-mayabank-enterprise-model/README.md) — registre canonique, 20 views, 60 cas cross-layer.
 
-### Partie XV — Use cases professionnels
-- [Ouvrir la Partie XV](15-professional-use-cases/README.md)
-- Instant Payment, API Banking, Kafka/Event Streaming, OpenShift/Kubernetes, Cloud Migration, IAM/Zero Trust, Fraud & Risk, Data Platform, Observability/SRE, Multi-site/DR, GenAI Platform, Green IT
-- matrice transversale + 60 cas d’entretien/Practitioner
+### XV — Use cases professionnels
+[Ouvrir](15-professional-use-cases/README.md) — Instant Payment, API, Kafka, OpenShift, Cloud, IAM, Fraud, Data, SRE, DR, GenAI, Green IT.
 
-### Partie XVI — Archi et modélisation pratique
-- [Ouvrir la Partie XVI](16-archi-practical-modeling/README.md)
-- Archi 5.8, organisation du référentiel, Views, properties, documentation, analyse, import/export, coArchi/Git
-- [LAB MayaBank](16-archi-practical-modeling/07-mayabank-hands-on-lab.md)
-- [Modèle natif MayaBank `.archimate`](16-archi-practical-modeling/models/mayabank-enterprise.archimate)
-- 50 exercices corrigés + Quick Reference + Practitioner Checklist
+### XVI — Archi pratique
+[Ouvrir](16-archi-practical-modeling/README.md) — Archi 5.8, coArchi/Git, labs et [modèle natif `.archimate`](16-archi-practical-modeling/models/mayabank-enterprise.archimate).
 
-### Partie XVII — ArchiMate as Code
-- [Ouvrir la Partie XVII](17-archimate-as-code/README.md)
-- PlantUML + ArchiMate-PlantUML + Git + CI/CD documentaire
-- 5 vues MayaBank as-code : EXEC / APP / TEC / SEC / MIG
-- scripts de validation/rendu + workflow GitHub Actions
-- 50 exercices + Quick Reference + Practitioner Checklist
+### XVII — ArchiMate as Code
+[Ouvrir](17-archimate-as-code/README.md) — PlantUML, Git, CI/CD, 5 views MayaBank as-code.
 
-### Partie XVIII — Foundation Question Bank
-- [Ouvrir la Partie XVIII](18-foundation-question-bank/README.md)
-- **350 QCM originaux** répartis en 7 blocs de 50
-- corrections séparées Q001–Q175 et Q176–Q350
-- contrôle de couverture : IDs continus, 4 choix A–D, 350 corrections, 350 énoncés distincts
+### XVIII — Foundation Question Bank
+[Ouvrir](18-foundation-question-bank/README.md) — **350 QCM originaux**, Q001–Q350, corrections et contrôle qualité.
 
-### Partie XIX — Practitioner Scenario Bank
-- [Ouvrir la Partie XIX](19-practitioner-scenario-bank/README.md)
-- **100 scénarios originaux S001–S100**
-- quatre réponses plausibles avec classement **5/3/1/0**
-- couverture : Motivation, Strategy, Business, Application, Technology, Physical, Migration, relations, viewpoints et use cases professionnels
+### XIX — Practitioner Scenario Bank
+[Ouvrir](19-practitioner-scenario-bank/README.md) — **100 scénarios S001–S100**, notation 5/3/1/0.
 
-### Partie XX — Mock Exams
-- [Ouvrir la Partie XX](20-mock-exams/README.md)
-- **4 examens Foundation × 40 QCM = 160 questions**
-- **4 examens Practitioner × 8 scénarios = 32 scénarios**
-- corrections détaillées + [score et protocole de remédiation](20-mock-exams/score-and-review.md)
+### XX — Mock Exams
+[Ouvrir](20-mock-exams/README.md) — **4 Foundation × 40 + 4 Practitioner × 8**.
 
-### Partie XXI — Cheat Sheets
-- [Ouvrir la Partie XXI](21-cheat-sheets/README.md)
-- **12 fiches de révision** : carte du langage, layers, relations, viewpoints, migration, confusions critiques et patterns professionnels
-- fiches dédiées Foundation/Practitioner, MayaBank cross-layer et révision express 15 minutes
+### XXI — Cheat Sheets
+[Ouvrir](21-cheat-sheets/README.md) — **12 fiches** + révision express 15 minutes.
 
-### Partie XXII — English for Enterprise Architects
-- [Ouvrir la Partie XXII](22-english-for-enterprise-architects/README.md)
-- anglais professionnel pour présenter, expliquer, challenger et défendre une architecture
-- **40 réponses d’entretien**, **15 dialogues FR/EN**, soutenance MayaBank complète et **200 phrases d’entraînement**
-- vocabulaire Paiements/API/Kafka/OpenShift/Cloud/IAM/DR/Data/GenAI/Green IT + compréhension orale et prononciation
+### XXII — English for Enterprise Architects
+[Ouvrir](22-english-for-enterprise-architects/README.md) — 40 réponses d'entretien, 15 dialogues, soutenance MayaBank et 200 phrases.
 
-### Partie XXIII — Glossaire FR/EN
-- [Ouvrir la Partie XXIII](23-glossary/README.md)
-- **261 termes distincts** : ArchiMate + EA/TOGAF + API/Kafka + Cloud/OpenShift + Security/DR/SRE + Data/AI/Green IT/FinOps
-- définitions, exemples MayaBank, confusions fréquentes et index A–Z bilingues
+### XXIII — Glossaire FR/EN
+[Ouvrir](23-glossary/README.md) — **261 termes distincts** + index A–Z bilingues.
 
-### Partie XXIV — Références officielles
-À venir : sources officielles, certification et mapping de couverture.
+### XXIV — Références officielles & Certification Mapping
+[Ouvrir](24-official-references/README.md) — état actuel Foundation/Practitioner, examens OGA-031/OGA-032, sources The Open Group, frontière normative, mapping de couverture et checklist finale.
 
 ---
 
-## La chaîne mentale à retenir
+## Certification — état vérifié au 7 septembre 2026
+
+| Niveau | Examen | Format | Durée | Passage |
+|---|---|---|---:|---:|
+| Foundation | OGA-031 | 40 QCM, closed book | 60 min | 24/40 = 60% |
+| Practitioner | OGA-032 | 8 scénarios, open book, 5/3/1/0 | 90 min | 26/40 = 65% |
+
+Les deux niveaux sont alignés sur **ArchiMate Specification Version 3.2**. Il n'existe pas de Combined ArchiMate 3.
+
+---
+
+## Chaîne mentale
 
 ```text
 WHY
 Motivation
    ↓
 WHAT WE MUST BE ABLE TO DO
-Strategy / Capabilities / Value Streams
+Strategy
    ↓
 WHAT THE BUSINESS DOES
 Business
@@ -143,29 +116,22 @@ Application
 WHERE IT RUNS
 Technology / Physical
    ↓
-HOW WE MOVE FROM BASELINE TO TARGET
+HOW WE CHANGE
 Implementation & Migration
 ```
 
-Puis, pour toute architecture réelle :
+Puis :
 
 ```text
 Stakeholder / Concern
 → Viewpoint / View
 → Cross-layer traceability
-→ Baseline / Target / Gaps
-→ Work Packages / Plateaus
+→ Baseline / Transition / Target
+→ Gaps / Work Packages / Deliverables
 ```
 
-Et pour l’industrialisation documentaire :
+## Principe du dépôt
 
-```text
-Archi / PlantUML source
-→ Git
-→ validation
-→ rendu
-→ revue
-→ documentation
-```
+ArchiMate sert ici à construire **un modèle cohérent, réutilisable, traçable et analysable**, et non une collection de schémas indépendants.
 
-ArchiMate permet ainsi de construire **un modèle cohérent et interrogeable**, au lieu d’une collection de schémas indépendants.
+Pour les règles normatives et les modalités de certification, la source de vérité reste **The Open Group**.
