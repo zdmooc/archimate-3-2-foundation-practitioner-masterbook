@@ -110,7 +110,10 @@ Le cas fil rouge **MayaBank** représente une banque fictive qui modernise sa pl
 - fiches dédiées Foundation/Practitioner, MayaBank cross-layer et révision express 15 minutes
 
 ### Partie XXII — English for Enterprise Architects
-À venir : expliquer, présenter et défendre un modèle en anglais.
+- [Ouvrir la Partie XXII](22-english-for-enterprise-architects/README.md)
+- anglais professionnel pour présenter, expliquer, challenger et défendre une architecture
+- **40 réponses d’entretien**, **15 dialogues FR/EN**, soutenance MayaBank complète et **200 phrases d’entraînement**
+- vocabulaire Paiements/API/Kafka/OpenShift/Cloud/IAM/DR/Data/GenAI/Green IT + compréhension orale et prononciation
 
 ### Partie XXIII — Glossaire
 À venir : glossaire français/anglais complet.
